@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        view()->share('config',Config::findOrFail(1));
+
         Route::resourceVerbs([
             'create' => 'olustur',
             'edit' => 'guncelle',
